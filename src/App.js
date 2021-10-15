@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import InfoCard from "../src/InfoCard/InfoCard.js"
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <div data-testid="nameTag">Jordan</div>
       </header>
+      <InfoCard />
     </div>
   );
 }
